@@ -1,1 +1,5 @@
-Primeito commit no projeto Dinamico CSS. - Andre Bernardes.
+Dinâmico CSS 
+
+Um framework simples, leve, sem frescura.
+
+- Andre Bernardes

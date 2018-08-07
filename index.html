@@ -1,10 +1,353 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Dinamico CSS</title>
+	<meta name="viewport" content="width=device-width, inicital-scale=1.0"> 
+	<title>Dinâmico CSS</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/dinamico.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<h1>Olá Mundo!</h1>
+
+	<header>
+		<div class="container">
+			<div class="linha">
+				<div class="doze colunas">
+					<h1 class="logo_dinamico">Dinâmico CSS</h1>
+					<p class="descricao">Simples, leve, sem frescura.</p>
+					<a class="botao destacado" href="#">Download grátis</a>
+				</div>
+
+				<a href="#" class="curso_di">
+					<span class="tag">Curso</span>
+					<p>Curso Completo de Design de Interface</p>
+					<span>Aprenda a criar interfaces incríveis.</span>
+				</a>
+
+			</div>
+		</div>
+		<div class="container icones">
+			<div class="linha">
+				<div class="quatro colunas">
+					<span>
+						<svg viewBox="0 0 480 480">
+							<path d="M0 0v480h480V0H0zm464 464H16V80h448v384zm0-400H16V16h448v48z"/>
+							<path d="M32 32h16v16H32zM64 32h16v16H64zM96 32h16v16H96zM432 32h16v16h-16zM288 112H48v176h240V112zm-16 160H64V128h208v144zM160 304H48v128h112V304zm-16 112H64v-96h80v96zM176 432h112V304H176v128zm16-112h80v96h-80v-96zM432 304H304v128h128V304zm-16 112h-96v-96h96v96zM304 112h16v16h-16zM336 112h96v16h-96zM304 144h128v16H304zM304 176h128v16H304zM304 208h128v16H304zM304 240h128v16H304zM304 272h128v16H304z"/>
+						</svg>
+					</span>
+					<label>Simples</label>
+				</div>
+				<div class="quatro colunas">
+					<span>
+						<svg viewBox="0 0 512 512">
+							<path d="M422.374 89.625a7.604 7.604 0 0 0-10.754-.001L177.54 323.705a7.602 7.602 0 0 0 5.377 12.98 7.58 7.58 0 0 0 5.377-2.227l234.081-234.08a7.603 7.603 0 0 0-.001-10.753z"/>
+							<path d="M510.167 69.929c-5.818-34.913-33.183-62.279-68.096-68.097-24.685-4.112-50.586-1.289-76.984 8.396a186.013 186.013 0 0 0-19.531 8.476 7.57 7.57 0 0 0-.806.414c-41.531 21.14-74.741 57.505-92.811 102.43a207.472 207.472 0 0 0-1.481 3.783 238.456 238.456 0 0 1-1.581-16.355c-.148-2.429-1.316-4.741-3.34-6.092a7.612 7.612 0 0 0-9.72 1.003c-13.968 14.38-26.368 28.747-37.433 43.008a7.5 7.5 0 0 0-.715.926c-57.393 74.323-78.475 145.634-94.574 200.113-11.77 39.828-21.067 71.288-39.624 89.845l-.003.003-61.241 61.236a7.602 7.602 0 0 0 5.377 12.98 7.58 7.58 0 0 0 5.377-2.227l61.249-61.25c18.558-18.551 50.015-27.848 89.84-39.616 39.913-11.795 89.572-26.471 142.089-56.032 2.463-1.386 4.136-3.964 4.119-6.79a7.605 7.605 0 0 0-5.957-7.397c-10.39-2.307-19.252-4.904-26.61-7.438 7.286-1.077 15.718-2.714 25.23-5.171 55.311-14.287 104.626-45.381 142.615-89.922a646.811 646.811 0 0 0 12.902-15.622 361.024 361.024 0 0 0 10.378-13.614c2.453-3.386 1.988-8.226-1.331-10.768a7.604 7.604 0 0 0-10.793 1.58 340.918 340.918 0 0 1-10.131 13.303 82.742 82.742 0 0 1-28.713 22.87c-54.925 26.421-101.04 33.527-101.55 33.602a7.604 7.604 0 0 0 2.228 15.044c1.892-.28 37.651-5.755 84.415-25.269-30.261 25.731-65.526 44.179-103.825 54.071-33.295 8.6-51.993 6.346-52.148 6.326a7.604 7.604 0 0 0-5.298 13.827c.652.443 13.676 9.137 40.265 17.087-44.882 22.88-87.328 35.424-122.198 45.729-16.749 4.95-32.088 9.485-45.832 14.505l50.035-50.035a7.603 7.603 0 0 0-.168-10.916c-3.031-2.854-7.868-2.555-10.812.389l-49.809 49.809c5.02-13.743 9.554-29.081 14.503-45.83 9.759-33.02 20.818-70.445 40.126-110.868a470.478 470.478 0 0 1 17.349-32.898c-8.457 27.568-12.777 50.315-12.834 67.731-.012 3.92 2.775 7.426 6.666 7.89a7.607 7.607 0 0 0 8.541-7.548c0-25.216 10.401-60.094 19.602-86.01 8.338-23.489 21.118-45.182 37.894-63.616l.262-.287c2.418 18.945 6.19 32.613 6.392 33.339a7.612 7.612 0 0 0 7.675 5.552 7.606 7.606 0 0 0 7.131-6.235c1.825-10.038 5.043-20.827 9.565-32.068 10.442-25.961 26.343-48.814 46.15-67.064-13.456 22.489-20.563 45.001-20.615 65.61-.01 3.877 2.823 7.318 6.672 7.775a7.607 7.607 0 0 0 8.536-7.548c0-32.288 20.023-62.797 33.955-80.116 7.725-9.602 17.838-17.052 29.402-21.31l.176-.065c23.893-8.766 47.192-11.347 69.246-7.672 28.503 4.75 50.845 27.092 55.595 55.595 5.349 32.101-2.563 66.573-23.518 102.459a7.608 7.608 0 0 0 3.705 10.882c3.542 1.462 7.601-.079 9.53-3.389 22.723-38.975 31.229-76.808 25.29-112.453z"/>
+						</svg>
+					</span>
+					<label>Leve</label>
+				</div>
+				<div class="quatro colunas">
+					<span>
+						<svg viewBox="0 0 58 58">
+							<path d="M9.5 43c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zm0 8c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3z"/>
+							<path d="M56.5 35c0-2.495-1.375-3.662-2.715-4.233A4.992 4.992 0 0 0 55.5 27c0-2.757-2.243-5-5-5H36.134l.729-3.41c.973-4.549.334-9.716.116-11.191C36.461 3.906 33.372 0 30.013 0h-.239C28.178 0 25.5.909 25.5 7c0 8.023-2.002 11.694-3.681 13.36-1.647 1.634-3.231 1.616-3.319 1.64h-1v-2h-16v38h16v-2h28c2.757 0 5-2.243 5-5a4.98 4.98 0 0 0-1.069-3.087A5.008 5.008 0 0 0 53.5 43a4.98 4.98 0 0 0-1.069-3.087A5.008 5.008 0 0 0 56.5 35zm-53 21V22h12v34h-12zm48-18h-11a1 1 0 1 0 0 2h8c1.654 0 3 1.346 3 3s-1.346 3-3 3h-10a1 1 0 1 0 0 2h7c1.654 0 3 1.346 3 3s-1.346 3-3 3h-28V24l.969-.001c.097.019 2.42.05 4.682-2.144C26.037 19.059 27.5 14.061 27.5 7c0-1.867.295-5 2.274-5h.239C32.244 2 34.621 5.13 35 7.691c.207 1.392.81 6.26-.093 10.48L33.662 24H50.5c1.654 0 3 1.346 3 3s-1.346 3-3 3h-10a1 1 0 1 0 0 2h7c.883 0 2.825.04 3.854.193C53.965 32.58 54.5 33.595 54.5 35c0 1.654-1.346 3-3 3z"/>
+						</svg>
+					</span>
+					<label>Sem frecura</label>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<div class="container">
+	<nav class="main-nav">
+		<ul>
+			<li><a href="#apresentacao">Apresentação</a></li>
+			<li><a href="#comousar">Como usar</a></li>
+			<li><a href="#grid">Grid</a></li>
+			<li><a href="#tipografia">Tipografia</a></li>
+			<li><a href="#botoes">Botões</a></li>
+			<li><a href="#formularios">Formulários</a></li>
+			<li><a href="#listas">Listas</a></li>
+			<li><a href="#codigos">Códigos</a></li>
+			<li><a href="#utilidades">Utilidades</a></li>
+			<li><a href="#imagens">Imagens</a></li>
+		</ul>
+	</nav>
+	</div>
+
+	<div class="container"> <!-- inicio do container -->
+		<div class="linha">
+			<div class="doze colunas">
+				<h1 id="apresentacao">Apresentação</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="linha">
+			<div class="doze colunas">
+				<h1 id="comousar">Como Usar</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="exemplo-grid">
+			<h1 id="grid">GRID</h1>
+			<div class="linha">
+				<div class="uma coluna">UMA</div>
+				<div class="onze colunas">ONZE</div>
+			</div>
+			<div class="linha">
+				<div class="duas colunas">DUAS</div>
+				<div class="dez colunas">DEZ</div>
+			</div>
+			<div class="linha">
+				<div class="tres colunas">TRÊS</div>
+				<div class="nove colunas">NOVE</div>
+			</div>
+			<div class="linha">
+				<div class="quatro colunas">QUATRO</div>
+				<div class="oito colunas">OITO</div>
+			</div>
+			<div class="linha">
+				<div class="cinco colunas">CINCO</div>
+				<div class="sete colunas">SETE</div>
+			</div>
+			<div class="linha">
+				<div class="seis colunas">SEIS</div>
+				<div class="seis colunas">SEIS</div>
+			</div>
+			<!-- MEIO DO GRID -->
+			<div class="linha">
+				<div class="sete colunas">SETE</div>
+				<div class="cinco colunas">CINCO</div>
+			</div>
+			<div class="linha">
+				<div class="oito colunas">OITO</div>
+				<div class="quatro colunas">QUATRO</div>
+			</div>
+			<div class="linha">
+				<div class="nove colunas">NOVE</div>
+				<div class="tres colunas">TRÊS</div>
+			</div>
+			<div class="linha">
+				<div class="dez colunas">DEZ</div>
+				<div class="duas colunas">DUAS</div>
+			</div>
+			<div class="linha">
+				<div class="onze colunas">ONZE</div>
+				<div class="uma coluna">UMA</div>
+			</div>
+			<div class="linha">
+				<div class="doze colunas">DOZE</div>
+			</div>
+			<div class="linha">
+				<div class="quatro colunas">QUATRO</div>
+				<div class="quatro colunas">QUATRO</div>
+				<div class="quatro colunas">QUATRO</div>
+			</div>
+		</div>
+
+		<div class="linha">
+			<div class="doze colunas">
+				<h1 id="tipografia">Tipografia</h1>
+				<h1>Cabeçalho 1</h1>
+				<h2>Cabeçalho 2</h2>
+				<h3>Cabeçalho 3</h3>
+				<h4>Cabeçalho 4</h4>
+				<h5>Cabeçalho 5</h5>
+				<h6>Cabeçalho 6</h6>
+				<p>Este é um exemplo de parágrafo em <strong>negrito</strong> com <em>itálico</em>, e um <u>sublinhado básico</u> com uma <mark>marcação legal</mark>.</p>
+				<p>Para fechar com chave de ouro, um <a href="#">link bonitão!</a>.</p>
+			</div>
+		</div>
+		<div class="linha">
+			<div class="doze colunas">
+				<h1 id="botoes">Botões</h1>
+				<button>Botão Padrão</button>
+				<input type="button" value="Input button">
+				<input type="button" value="Input submit">
+				<a href="#" class="botao">Botão link</a>
+			</div>
+		</div>
+
+		<div class="linha">
+			<div class="doze colunas">
+				<button class="botao destacado">Botão Padrão</button>
+				<input class="botao destacado" type="button" value="Input button">
+				<input class="botao destacado" type="button" value="Input submit">
+				<a class="botao destacado" href="#" class="botao">Botão link</a>
+			</div>
+		</div>
+
+		<div class="linha">
+			<div class="doze colunas">
+				<h1 id="formularios">Formulários</h1>
+				<form>
+					<div class="linha">
+						<div class="seis colunas">
+							<label for="nome">Nome</label>
+							<input class="u-width-100" type="text" id="nome">
+						</div>
+						<div class="seis colunas">
+							<label for="assunto">Assunto</label>
+							<select class="u-width-100" id="assunto">
+								<option value="1">Opção 1</option>
+								<option value="2">Opção 2</option>
+								<option value="3">Opção 3</option>
+							</select>
+						</div>
+
+					</div>
+					<div class="linha">
+						<div class="deze colunas">
+							<label for="mensagem">Mensagem</label>
+							<textarea class="u-width-100" id="mensagem" rows="10"></textarea>
+						</div>
+					</div>
+					<div class="linha">
+						<div class="deze colunas">
+							<label>
+								<input type="checkbox"> Aceitar termos
+							</label>
+							<input class="botao destacado" type="submit" value="Enviar">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="linha">	
+			<div class="doze colunas">
+				<h1 id="listas">Listas</h1>
+			</div>
+			<div class="seis colunas">
+				<h4>Não ordenada</h4>
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2
+						<ul>
+							<li>Subitem 1</li> 
+							<li>Subitem 2</li>
+							<li>Subitem 3</li>
+						</ul>
+					</li>
+					<li>Item 3</li>
+					<li>Item 4</li>
+				</ul>
+			</div>
+			<div class="seis colunas">
+				<h4>Ordenada</h4>
+				<ol>
+					<li>Item</li>
+					<li>Item
+						<ol>
+							<li>Subitem</li> 
+							<li>Subitem</li>
+							<li>Subitem</li>
+						</ol>
+					</li>
+					<li>Item</li>
+					<li>Item</li>
+				</ol>
+			</div>
+		</div>
+
+<div class="linha">
+<div class="doze colunas">
+	<h1 id="codigos">Códigos</h1>
+		<p>Este é um exemplo de <code>código</code></p>
+			<pre><code>
+ .nome-classe {
+  background-color:#000;
+  color:#fff;
+  border:1px solid #f1f1f1;
+ }
+ </code></pre>
+			</div>
+
+</div>
+
+		<div class="linha">
+			<div class="doze colunas">
+				<h1 id="tabelas">Tabelas</h1>
+				<table class="u-width-100">
+					<thead>
+						<th>Nome</th>
+						<th>Sobrenome</th>
+						<th>Idade</th>
+						<th>Cidade</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Andre</td>
+							<td>Bernardes</td>
+							<td>32</td>
+							<td>Manaus</td>
+						</tr>
+						<tr>
+							<td>Carlos</td>
+							<td>Almeida</td>
+							<td>40</td>
+							<td>São Paulo</td>
+						</tr>
+						<tr>
+							<td>Patrícia</td>
+							<td>Noronha</td>
+							<td>27</td>
+							<td>Rio de Janeiro</td>
+						</tr>
+						<tr>
+							<td>Sandro</td>
+							<td>Costa</td>
+							<td>22</td>
+							<td>Fortaleza</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="linha">
+			<div class="doze colunas">
+				<h1 id="imagens">Imagens responsivas</h1>
+			</div>
+			<div class="seis colunas">
+				<img src="img/responsivas.jpg" alt="Imagens responsivas" class="u-width-100">
+			</div>
+			<div class="seis colunas">
+				<img src="img/responsivas.jpg" alt="Imagens responsivas" class="u-width-100">
+			</div>
+		</div>
+
+	</div> <!-- fim do container -->
+
+	<div class="container">
+		
+		<footer>
+			<div class="linha">
+				<div class="seis colunas">©2018</div>
+				<div class="seis colunas">Desenvolvido por André Bernardes.</div>
+			</div>
+		</footer>
+
+	</div>
+
+<!-- Highlight.js -->
+<script src="js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+	
 </body>
 </html>
